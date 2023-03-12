@@ -1,5 +1,5 @@
 name: auto_register
-description: A new Flutter project.
+description: A register for new window plugin.
 version: 0.0.1
 homepage:
 
@@ -9,8 +9,6 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
-  flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
 
@@ -39,7 +37,7 @@ flutter:
       macos:
         pluginClass: AutoRegisterPlugin
       windows:
-        pluginClass: AutoRegisterPlugin
+        pluginClass: AutoRegisterPluginCApi
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

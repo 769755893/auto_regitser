@@ -1,6 +1,6 @@
 # auto_register
 
-A new Flutter project.
+A register for new window plugin.
 
 ## Getting Started
 
